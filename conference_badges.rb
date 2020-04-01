@@ -12,4 +12,7 @@ end
 
 def assign_rooms(attendees)
   attendees.map.with_index do |attendees, index|
-    
+    "Hello, #{attendee} You'll be assigned to #{index}!"
+  end
+end
+
