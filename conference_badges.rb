@@ -23,7 +23,7 @@ def printer(attendees)
   end
 end
 
-def printer(attendees)
+
   room = assign_rooms(attendees)
   room.each do |room|
     puts room
