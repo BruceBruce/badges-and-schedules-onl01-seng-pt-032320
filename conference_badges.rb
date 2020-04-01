@@ -16,3 +16,6 @@ def assign_rooms(attendees)
   end
 end
 
+def assign_rooms(array)
+  array.each_with-index do |assigned, index|
+    array[array.index(assigned)] = 
