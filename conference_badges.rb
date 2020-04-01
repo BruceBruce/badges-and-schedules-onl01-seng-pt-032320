@@ -12,7 +12,7 @@ end
 
 def assign_rooms(attendees)
   attendees.map.with_index do |attendees, index|
-    "Hello, #{attendee} You'll be assigned to #{index+1}!"
+    array[array.index(attendee) = "Hello, #{attendee} You'll be assigned to #{index+1}!"
   end
 end
 
@@ -22,9 +22,10 @@ def printer(attendees)
     puts badge
   end
 end
+
 def printer(attendees)
-  room = batch_badge_creator(attendees)
-  badge.each do |badge|
-    puts badge
+  room = assign_rooms(attendees)
+  room.each do |room|
+    puts room
   end
 end
